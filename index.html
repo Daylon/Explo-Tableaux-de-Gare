@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./horaires.scss" />
+        <!--
+            <script src="./fastdom-1.0.4/fastdom.js" type="module" ></script>
+        -->
+        <script type="module" src="./horaires.js" />
+    </head>
+    <body>
+        <main id="phone">
+            <h1 class="layout">En route&nbsp;:</h1>
+            <section id="en-route" class="layout">
+                <div id="favoris" class="showoff">
+                    <header>
+                        Favoris
+                    </header>
+                </div>
+                <div id="tableaux" class="showoff">
+                    <header>
+                        Horaires en gare
+                    </header>
+                    <div id="timetables">
+                        <div id="timetables-list">
+                            <div id="timetable-A" class="timetable size-m"></div>
+                            <div id="timetable-B" class="timetable size-m"></div>
+                            <div id="timetable-C" class="timetable size-m"></div>
+                        </div>
+                    </div>
+                    <footer>
+                        Voir tous les horaires
+                    </footer>
+                </div>
+                <div id="info-trafic" class="showoff">
+                    <header>
+                        Info trafic
+                    </header>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
